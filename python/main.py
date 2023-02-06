@@ -125,6 +125,6 @@ def generate_manhattan(w, h, num_seeds):
 
 a = 500
 b = 500
-z = 6
+z = 3
 generate_manhattan(a, b, z)
 generate_euclid(a, b, z)
