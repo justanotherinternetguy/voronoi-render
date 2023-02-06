@@ -123,8 +123,8 @@ def generate_manhattan(w, h, num_seeds):
     img.save("manhattan.png", "PNG")
 
 
-a = 500
-b = 500
-z = 3
+a = 300
+b = 300
+z = 6
 generate_manhattan(a, b, z)
 generate_euclid(a, b, z)
